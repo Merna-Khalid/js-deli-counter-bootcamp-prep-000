@@ -1,6 +1,5 @@
-function takeANumber(num, name) {
-  num++
-  return "Welcome, " + name + ". You are number " + num + " in line."
+function takeANumber(line, name) {
+  return "Welcome, " + name + ". You are number " + line.length + " in line."
 }
 
 function nowServing(line) {
