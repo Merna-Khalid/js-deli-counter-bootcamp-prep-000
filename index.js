@@ -18,7 +18,7 @@ function currentLine(line) {
     for(var i = 0; i < line.length; i++) {
       s += " " + (i + 1) + ". " + line[i] + ","
     }
-    s.pop()
+    delete s[s.length - 1]
     return s
   }
   else {
